@@ -1,0 +1,1 @@
+SELECT MAX("0m") AS "maximum value of 0m" FROM "normals";

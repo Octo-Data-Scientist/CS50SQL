@@ -1,0 +1,1 @@
+SELECT MIN("0m") AS "minimum value from 0m" FROM "normals";
