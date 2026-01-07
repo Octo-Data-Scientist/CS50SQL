@@ -49,6 +49,14 @@ SELECT "title" FROM "books" WHERE "id" IN(
     )
 );
 
+-- EXCEPT
+-- Assume names are unique
+
+-- Find translators who are not authors
+SELECT "name" FROM "translators"
+EXCEPT
+SELECT "name" FROM "authors";
+
 
 
 
