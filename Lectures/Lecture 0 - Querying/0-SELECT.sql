@@ -24,4 +24,4 @@ SELECT "votes" FROM "longlist";
 
 SELECT "rating" FROM "longlist";
 
-SELECT "isbn", "title", "author" FROM "longlist";
+SELECT "isbn", "title", "author" FROM "longlist"; 

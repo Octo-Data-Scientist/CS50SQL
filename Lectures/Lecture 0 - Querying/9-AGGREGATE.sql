@@ -4,7 +4,7 @@ SELECT AVG("rating") AS "Average Rating" FROM "longlist";
 
 SELECT ROUND(AVG("rating"), 2) AS "Average Rating" FROM "longlist";
 
-SELECT ROUND(AVG("rating"), 2) AS "Average Rating" FROM "longlist";
+SELECT ROUND(AVG("rating"), 1) AS "Average Rating" FROM "longlist";
 
 SELECT MAX("rating") AS "Maximum Rating" FROM "longlist";
 

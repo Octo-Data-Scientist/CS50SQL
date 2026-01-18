@@ -2,10 +2,12 @@
 SELECT "title", "year" FROM "longlist" WHERE "year" >= 2019
 AND "year" <= 2022;
 
--- SELECT title, year FROM longlist WHERE year BETWEEN 2019 AND 2022;
+SELECT "title", "year" FROM "longlist" WHERE "year" BETWEEN 2019 AND 2022;
 
 SELECT "title", "author", "rating" FROM "longlist" WHERE "rating" >= 3.00
 AND "rating" <= 4.00;
+
+SELECT "title", "author", "rating" FROM "longlist" WHERE "rating" BETWEEN 3.00 AND 4.00;
 
 SELECT "title", "author", "rating" FROM "longlist" WHERE "rating" > 4.00;
 
